@@ -10,16 +10,20 @@ Your program will be given as input a single word, and it should print out that 
 As a refresher, here are some ways to read a single word from standard input (when the first line of input contains a single word), in a few different languages:
 
 **Python 3**
-**input()** reads a whole line, and strip() removes trailing whitespace/newline
+input() reads a whole line, and strip() removes trailing whitespace/newline
 word = input().strip()
 
-// C++
-// make sure to first "#include <iostream>"
+C++
+
+make sure to first "#include <iostream>"
+
 std::string word;
 std::cin >> word;
 
-// Java
-// make sure to first "import java.util.Scanner;"
+Java
+
+make sure to first "import java.util.Scanner;"
+
 Scanner s = new Scanner(System.in);
 String word = s.next();
 
@@ -112,9 +116,11 @@ Output the smaller number first, and the larger number second.
 
 
 Sample Input 2
+
 987 23
 
 Sample Output 2
+
 23 987
 
 
@@ -131,11 +137,13 @@ Output
 For each pair of integers in the input, output one line, containing the absolute value of their difference.
 
 Sample Input 1
+
 10 12
 71293781758123 72784
 1 12345677654321
 
 Sample Output 1
+
 2
 71293781685339
 12345677654320
