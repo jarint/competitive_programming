@@ -1,6 +1,6 @@
 # Problem Set 1
 
-### Problem B - Echo Echo Echo
+## Problem B - Echo Echo Echo
 
 If you have ever visited a canyon or a cave, you may have yelled and heard the echo of your own voice. In this problem, you should simulate that effect:
 Hello! Hello! Hello!
@@ -43,7 +43,7 @@ Hello
 Hello Hello Hello
 
 
-# Problem C - Add Two Numbers
+## Problem C - Add Two Numbers
 In this problem, your program should read two whole numbers (also called integers) from the input, and print out their sum.
 
 As a refresher, here are some ways to read two numbers from standard input in a few different languages:
@@ -83,7 +83,7 @@ Output the sum of the two integers, a + b
 
 
 
-# Problem D - Sort Two Numbers
+## Problem D - Sort Two Numbers
 In this problem, your program should read two whole numbers (also called integers) from the input, and print them out in increasing order.
 
 As a refresher, here are some ways to read two numbers from standard input in a few different languages:
@@ -125,7 +125,7 @@ Sample Output 2
 
 
 
-# Problem E - A Different Problem
+## Problem E - A Different Problem
 Write a program that computes the difference between non-negative integers.
 Input
 
@@ -149,7 +149,7 @@ Sample Output 1
 12345677654320
 
 
-# Problem F - Guess The Number
+## Problem F - Guess The Number
 
 I am thinking of a number between 1 and 1000, can you guess what number it is? Given a guess, I will tell you whether the guess is too low, too high, or correct. But I will only give you 10 guesses, so use them wisely!
 
