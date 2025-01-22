@@ -1,5 +1,8 @@
 # Problem Set 1
 
+## Problem A - Literally Hello World (Skip)
+
+
 ## Problem B - Echo Echo Echo
 
 If you have ever visited a canyon or a cave, you may have yelled and heard the echo of your own voice. In this problem, you should simulate that effect:
