@@ -4,6 +4,12 @@ dot = "."
 pound = "#"
 ErrMsg = "Error decoding image"
 
+
+'''
+
+this solution doesnt work yet
+'''
+
 scanned_lines = []
 
 while True:
