@@ -6,8 +6,6 @@ def is_power_of_two(n):
         return False
     return (n & (n - 1)) == 0
 
-
-
 N = int(sys.stdin.readline().strip())
 
 if N == 1:
