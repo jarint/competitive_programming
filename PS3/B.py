@@ -5,7 +5,6 @@ MAX_PAYMENTS = 1200
 
 n = int(sys.stdin.readline().strip())
 
-
 def APR(R, B, M):
     num_payments = 0
     
