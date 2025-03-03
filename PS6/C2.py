@@ -19,10 +19,7 @@ for i in range(num_weeks_left + 1):
 memo = [[-1] * (num_seats_left + 1) for _ in range(num_weeks_left + 1)]
 
 def compute_max_revenue(weeks_left, seats_left):
-    """
-    Uses dynamic programming to find the maximum revenue possible given
-    the number of remaining weeks and seats left.
-    """
+
     if weeks_left == -1:
         return 0  # No revenue can be made if no weeks are left
     if seats_left == 0:

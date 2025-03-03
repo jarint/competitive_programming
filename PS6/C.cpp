@@ -1,10 +1,3 @@
-/*
-C++ solution for the problem Plane Ticket Pricing (https://open.kattis.com/problems/ticketpricing)
-Execution time: 0.01 s
-Submitted on 2020-01-26 12:52:52
-Source code extracted automatically by the script https://github.com/GunnerJW/py_utilities/blob/master/kattis_solved_problems_code_extract.py
-*/
-
 #include <iostream>
 #include <vector>
 
