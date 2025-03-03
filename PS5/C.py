@@ -21,6 +21,7 @@ for num_distances, distances in test_cases:
     for i in range(1, num_distances):
         d = distances[i]
         for h in range(total_distance + 1):
+            
             # climbing down
             if h + d <= total_distance:
                 direction, max_height = dp[i - 1][h + d]
