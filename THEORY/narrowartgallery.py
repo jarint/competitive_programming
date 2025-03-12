@@ -35,7 +35,7 @@ k = int(data[1])
 rooms = []
 total_val = 0
 
-for i in range(2, 2*n - 2, 2):
+for i in range(2, 2*n, 2, 2):
     total_val += int(data[i]) + int(data[i+1])
     rooms.append((int(data[i]), int(data[i+1])))
 
