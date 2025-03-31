@@ -29,10 +29,6 @@ while not priority_queue.empty():
         if len(edges) == n - 1:
             break
 
-i = 1000000000000000000000000000000
-while(i):
-    i -= 1
-
 print(total_unlikeliness)
 for u, v in edges:
     print(u, v)
