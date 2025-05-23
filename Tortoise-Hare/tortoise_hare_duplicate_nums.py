@@ -1,22 +1,24 @@
 # https://leetcode.com/problems/find-the-duplicate-number/description/
 
+nums = [4, 3, 7, 8, 6, 9, 2, 1, 5, 2]
+
 def tortoiseHare(nums):
     tortoise = nums[0]
     hare = nums[0]
     while True:
         tortoise = nums[tortoise]
-        hare = nums[nums[hare]] # equivalent with next.next in a linkedlist
+        hare = nums[nums[hare]]
         if tortoise == hare:
             break
 
     ptr1 = nums[0]
-    ptr2 = hare # can also be tortoise. It doesn't matter.
+    ptr2 = hare 
 
     while ptr1 != ptr2:
         ptr1 = nums[ptr1]
         ptr2 = nums[ptr2]
     
-    return ptr1 # can also return ptr2. both are at the same index
+    return ptr1 
 
 # Array can be accepted if two conditions are met:
 # 1) values in the array need to be 1 .. n
